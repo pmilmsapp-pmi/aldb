@@ -128,7 +128,7 @@ export default function AdminNewModulePage() {
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
                 placeholder="Ringkas modul ini (1-2 kalimat)."
-                className="mt-2 w-full border border-gray-200 rounded-xl px-4 py-2 outline-none focus:ring-2 focus:ring-red-200 min-h-[100px]"
+                className="mt-2 w-full border border-gray-200 rounded-xl px-4 py-2 outline-none focus:ring-2 focus:ring-red-200 min-h-24"
               />
             </div>
 
@@ -180,4 +180,3 @@ export default function AdminNewModulePage() {
     </AdminGuard>
   )
 }
-``
